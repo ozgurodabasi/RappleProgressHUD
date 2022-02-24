@@ -105,8 +105,8 @@ extension RappleActivityIndicatorView {
     }
     
     /** get key window */
-    @objc var keyWindow: UIWindow {
-        return UIApplication.shared.keyWindow!
+    @objc var keyWindow: UIWindow? {
+        return UIApplication.shared.keyWindow
     }
 }
 
